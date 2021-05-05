@@ -17,9 +17,6 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Mixa'),
-      ),
       body: _children[_currentIndex],
       bottomNavigationBar: _bottomNavigationBar(),
     );
