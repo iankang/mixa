@@ -30,9 +30,9 @@ class _HomeState extends State<Home> {
         BottomNavigationBarItem(
             icon: new Icon(Icons.home), title: Text('Home')),
         BottomNavigationBarItem(
-            icon: new Icon(Icons.notifications), title: Text('Notifications')),
+            icon: new Icon(Icons.search), title: Text('Search')),
         BottomNavigationBarItem(
-            icon: Icon(Icons.favorite), title: Text('Favorites')),
+            icon: Icon(Icons.library_music), title: Text('Library')),
       ],
     );
   }

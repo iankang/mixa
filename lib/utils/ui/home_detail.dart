@@ -135,7 +135,7 @@ class HomeDetail extends StatelessWidget {
                 onTap: () {
                   Toast.show('playlist', context, duration: Toast.LENGTH_SHORT);
                 },
-                child: Icon(Icons.playlist_add_outlined),
+                child: Icon(Icons.playlist_play),
               )),
         ],
       ),
