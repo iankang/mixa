@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mixa/utils/ui/home_page.dart';
+import 'package:mixa/utils/ui/search.dart';
 import 'package:mixa/utils/ui/placeholder_widget.dart';
 
 class Home extends StatefulWidget {
@@ -11,7 +12,7 @@ class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _children = [
     HomePage(),
-    PlaceHolderWidget(Colors.amber),
+    Search(),
     PlaceHolderWidget(Colors.black)
   ];
   @override
